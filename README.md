@@ -4,8 +4,8 @@
 [![Name](https://img.shields.io/badge/CurseForge-life%20in%20the%20village%202-F16436)](https://www.curseforge.com/minecraft/modpacks/life-in-the-village-2/)
 [![Website](https://shields.io/website?up_message=anyijun.com&url=http://anyijun.com&label=Website)](http://anyijun.com)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/KlparetlR/Live-In-The-Village/blob/master/LICENSE)
-[![Downloads](https://shields.io/github/downloads/ShaBaiTianCN/Modpack/total?label=Downloads)](https://github.com/KlparetlR/Live-In-The-Village/releases)
-[![Release](https://shields.io/github/v/release/ShaBaiTianCN/Modpack?display_name=tag&include_prereleases&label=Release)](https://github.com/KlparetlR/Live-In-The-Village/releases/latest)
+[![Downloads](https://shields.io/github/downloads/KlparetlR/Live-In-The-Village/total?label=Downloads)](https://github.com/KlparetlR/Live-In-The-Village/releases)
+[![Release](https://shields.io/github/v/release/KlparetlR/Live-In-The-Village?display_name=tag&include_prereleases&label=Release)](https://github.com/KlparetlR/Live-In-The-Village/releases/latest)
 
 ## 仓库说明
 
