@@ -28,7 +28,7 @@ P.S.一些模组可能i18n和翻译包没有汉化，那就您要自己查翻译
 
 基础信息：[0.9.0] life in the village 2 汉化 1.35 by KlparetlR
 
-GitHub：https://github.com/KlparetlR/Live-In-The-Village-2
+GitHub：https://github.com/KlparetlR/Life-In-The-Village-2
 
 测试：KlparetlR
 
