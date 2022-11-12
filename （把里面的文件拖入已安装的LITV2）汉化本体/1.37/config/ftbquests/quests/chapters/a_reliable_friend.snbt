@@ -1,0 +1,592 @@
+{
+	id: "000000000000062C"
+	group: ""
+	order_index: 4
+	filename: "a_reliable_friend"
+	title: "可靠的朋友"
+	icon: "doggytalents:doggy_charm"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "狗骨头"
+			x: -3.0d
+			y: -2.5d
+			description: [
+				"第1步:"
+				"找到一只野狼（我的世界中原版的狼）。"
+				"第2步:"
+				"喂它骨头（用手里的骨头右击），直到爱心粒子出现在它的头顶上。如果它的脖子上出现一个项圈，而且坐了下来，那么你就做对了！"
+				"第3步:"
+				"只要给狗喂食一个训练口粮，狗消失的一瞬间，一只没有项圈的狗会代替它。这时，你就有了一只小狗天才模组的狗。"
+			]
+			size: 1.5d
+			id: "000000000000062D"
+			tasks: [{
+				id: "000000000000062E"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "000000000000066F"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["这是初级的口粮，可以提高你的狗的等级。不过它只能将狗升级到最高20级。之后，你将需要更高一级的训练口粮,即超级口粮。"]
+			dependencies: ["000000000000062D"]
+			id: "000000000000062F"
+			tasks: [{
+				id: "0000000000000630"
+				type: "item"
+				item: "doggytalents:training_treat"
+			}]
+			rewards: [{
+				id: "000000000000065C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			description: [
+				"一旦你有了一只小狗天才模组的狗，你就可以用手杖（主手或副手）右键点击它，来打开狗的信息或天赋菜单。"
+				""
+				"此菜单允许您更改狗的名称、切换它的模式、添加天赋以及切换是否服从其他玩家。在菜单中，您的狗的基础等级，突破等级和等级消费点数将显示在名称框下方。"
+				""
+				"按照以下的零食等级顺序来升级您的狗越多：训练口粮、超级口粮、专业口粮和顶级口粮，您就可以花在天赋上的点数越多。"
+				"最终，狗将达到其最大等级，一旦达到等级上限，您将无法再获得点数。"
+			]
+			dependencies: ["000000000000062F"]
+			id: "0000000000000631"
+			tasks: [{
+				id: "0000000000000632"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "0000000000000664"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			description: ["这是您需要升级您的狗的第二种口粮。它只能将狗升级到40级。之后，你将需要更高一级的训练口粮，即专业口粮。"]
+			dependencies: ["000000000000062F"]
+			id: "0000000000000633"
+			tasks: [{
+				id: "0000000000000634"
+				type: "item"
+				item: "doggytalents:super_treat"
+			}]
+			rewards: [{
+				id: "000000000000066C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["这是您需要升级您的狗的第三种口粮。它只能将狗升级到60级。之后，你将需要最后一级的训练口粮，即顶级口粮。"]
+			dependencies: ["0000000000000633"]
+			id: "0000000000000635"
+			tasks: [{
+				id: "0000000000000636"
+				type: "item"
+				item: "doggytalents:master_treat"
+			}]
+			rewards: [
+				{
+					id: "000000000000066D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0000000000000671"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "0000000000000678"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			description: [
+				"这是您需要升级您的狗的第四种也是最后一种口粮。它增加突破等级，最高为30。之后，您将不再有能力升级狗，因此狗已经达到了终极水平。"
+				"此外，在最高的突破等级后，你的狗会开始发出末影粒子。"
+			]
+			dependencies: ["0000000000000635"]
+			id: "0000000000000637"
+			tasks: [{
+				id: "0000000000000638"
+				type: "item"
+				item: "doggytalents:dire_treat"
+			}]
+			rewards: [
+				{
+					id: "000000000000066E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0000000000000670"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "0000000000000677"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["000000000000062F"]
+			id: "0000000000000639"
+			tasks: [{
+				id: "000000000000063A"
+				type: "item"
+				item: {
+					id: "doggytalents:whistle"
+					Count: 1b
+					tag: {
+						mode: 4
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000065E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: [
+				"这个物品就像一张地图，但是当你的狗装备了雷达项圈时，它可以用来定位你的狗。要找到您的狗，请右键单击您主手上的物品，它会显示您的狗与您的距离以及它所在的方向。"
+				"然而，此物品仅在与狗处于同一维度时才有效。"
+			]
+			dependencies: ["0000000000000639"]
+			id: "000000000000063B"
+			tasks: [
+				{
+					id: "000000000000063C"
+					type: "item"
+					item: "doggytalents:radar"
+				}
+				{
+					id: "0000000000000657"
+					type: "item"
+					item: "doggytalents:radio_collar"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000065F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000675"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: [
+				"此物品允许您携带食物为您的狗。你可以用手中的袋子右击你的狗，喂它里面的东西。"
+				"你也可以把袋子里面的东西放进一个狗食盆里，用鼠标右键点击盆。"
+			]
+			dependencies: ["0000000000000631"]
+			id: "000000000000063D"
+			tasks: [{
+				id: "000000000000063E"
+				type: "item"
+				item: "doggytalents:treat_bag"
+			}]
+			rewards: [
+				{
+					id: "0000000000000666"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067F"
+					type: "item"
+					item: "minecraft:bone"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "狗狗装饰"
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["0000000000000639"]
+			id: "000000000000063F"
+			tasks: [
+				{
+					id: "0000000000000640"
+					type: "item"
+					item: "doggytalents:cape"
+				}
+				{
+					id: "0000000000000641"
+					type: "item"
+					item: "doggytalents:cape_coloured"
+				}
+				{
+					id: "0000000000000642"
+					type: "item"
+					item: "doggytalents:leather_jacket"
+				}
+				{
+					id: "0000000000000643"
+					type: "item"
+					item: "doggytalents:sunglasses"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000660"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000679"
+					type: "item"
+					item: "doggytalents:tiny_bone"
+				}
+				{
+					id: "000000000000067A"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 5
+				}
+				{
+					id: "000000000000067B"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			description: [
+				"这给了你的狗一个项圈！要装备项圈，先将项圈放在你的主手上，然后右键点击你的狗。您可以定制项圈的颜色，与可穿戴背包模组中的颜色相似！"
+				"为此，只需将其添加到工作台中并染色，或直接将其应用于您的狗狗。你可以用项圈剪刀把它们移除"
+			]
+			dependencies: ["0000000000000639"]
+			id: "0000000000000644"
+			tasks: [
+				{
+					id: "0000000000000645"
+					type: "item"
+					item: "doggytalents:spotted_collar"
+				}
+				{
+					id: "0000000000000647"
+					type: "item"
+					item: {
+						id: "doggytalents:wool_collar"
+						Count: 1b
+						tag: {
+							collar_colour: 16383998
+						}
+					}
+				}
+				{
+					id: "0000000000000648"
+					type: "item"
+					item: "doggytalents:multicoloured_collar"
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000066B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0000000000000676"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["这种特殊的棍子为您的狗提供100刻（5秒）的发光1级效果，200 刻（10秒）的速度6级效果，以及100刻（5 秒）的1级再生效果。"]
+			dependencies: ["0000000000000631"]
+			id: "0000000000000649"
+			tasks: [{
+				id: "000000000000064A"
+				type: "item"
+				item: "doggytalents:chew_stick"
+			}]
+			rewards: [
+				{
+					id: "0000000000000665"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000672"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"你可以用这个物品和你的狗一起玩！首先，将您的狗设置为温顺模式，然后右键单击以扔骨头。狗在骨头后飞蹦，并抓住它，然后把它将沾满口水的投掷骨头还给你。"
+				"要再次投掷骨头，您必须先通过右键单击它或将其移入工作台来清理骨头以获得投掷骨头。"
+			]
+			dependencies: ["0000000000000649"]
+			id: "000000000000064B"
+			tasks: [{
+				id: "000000000000064C"
+				type: "item"
+				item: "doggytalents:throw_bone"
+			}]
+			rewards: [
+				{
+					id: "0000000000000667"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000680"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: ["这与投掷骨头的功能相同。"]
+			dependencies: ["0000000000000649"]
+			id: "000000000000064D"
+			tasks: [{
+				id: "000000000000064E"
+				type: "item"
+				item: "doggytalents:throw_stick"
+			}]
+			rewards: [
+				{
+					id: "0000000000000668"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067E"
+					type: "item"
+					item: "minecraft:egg"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["这种特殊的骨头是繁殖你的狗所必需的。"]
+			dependencies: ["0000000000000651"]
+			id: "000000000000064F"
+			tasks: [{
+				id: "0000000000000650"
+				type: "item"
+				item: "doggytalents:breeding_bone"
+			}]
+			rewards: [
+				{
+					id: "0000000000000662"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000673"
+					type: "item"
+					item: "minecraft:porkchop"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["0000000000000631"]
+			id: "0000000000000651"
+			tasks: [{
+				id: "0000000000000652"
+				type: "item"
+				item: {
+					id: "doggytalents:dog_bed"
+					Count: 1b
+					tag: {
+						doggytalents: {
+							casingId: "minecraft:oak_planks"
+							beddingId: "minecraft:white_wool"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000663"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000681"
+					type: "item"
+					item: "minecraft:egg"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["0000000000000651"]
+			id: "0000000000000653"
+			tasks: [{
+				id: "0000000000000654"
+				type: "item"
+				item: "doggytalents:dog_bath"
+			}]
+			rewards: [
+				{
+					id: "0000000000000669"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067D"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["0000000000000651"]
+			id: "0000000000000655"
+			tasks: [{
+				id: "0000000000000656"
+				type: "item"
+				item: "doggytalents:food_bowl"
+			}]
+			rewards: [
+				{
+					id: "000000000000066A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0000000000000674"
+					type: "item"
+					item: "minecraft:mutton"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["这些特殊的剪刀可以切断狗的羊毛项圈。此外，剪刀可以解除你的狗（与你的关系）。"]
+			dependencies: ["0000000000000639"]
+			id: "0000000000000658"
+			tasks: [{
+				id: "0000000000000659"
+				type: "item"
+				item: "doggytalents:collar_shears"
+			}]
+			rewards: [
+				{
+					id: "0000000000000661"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "000000000000067C"
+					type: "item"
+					item: "minecraft:bone"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: [
+				"模式"
+				""
+				"这些控制狗如何对其他实体做出反应与您的互动，每种模式的提示都显示在狗的上方，如下图所示"
+				""
+				"温顺(D)"
+				"在这种模式下，你的狗会跟着你，但不会攻击任何东西。当您扔投掷骨头或投掷木棍时，他们也会和您一起玩抓取。此模式将显示为提示，即狗的名字上方的\"(D)\"。"
+				""
+				"悠闲(W)"
+				"在这种模式下，您的狗会留在狗食盆附近并等待您的下一个命令。要放置您的狗食盆，只需放置一个并将您的狗带到它的1格内的距离。此模式将显示为提示，即狗的名字上方的\"(W)\"。"
+				""
+				"勇猛(A)"
+				"在这种模式下，你的狗会跟着你，攻击任何攻击你或你攻击的东西。此模式将显示为提示，即狗的名字上方的\"(A)\"。"
+				""
+				"狂暴(B)"
+				"在这种模式下，你的狗会跟着你，会攻击任何靠近你的生物。此模式将显示为提示，即狗的名字上方的\"(B)\"。"
+				""
+				"待令(T)"
+				"在这种模式下，你的狗会跟着你，但不会攻击任何东西，除非你使用命令光束即攻击你右键单击的实体（手里拿着物品）。此模式将显示为提示，即狗的名字上方的\"(T)\"。"
+				""
+				"无行为能力(I)"
+				"在这种模式下，你的狗会浑身是血，它不会攻击也不会让你与它互动（除了你让它坐下）。只有当它的生命值是一颗心的1/2（1HP）并且它的生命值不会达到0时，狗才会进入此模式，从而防止狗死亡。"
+				"一旦狗的生命值超过1HP，它最终将退出此模式，但是，退出此模式后它不会处于完全健康状态。要强制狗在完全健康的情况下退出模式，请喂它一块蛋糕。"
+				"可以在配置设置中关闭此模式。此模式将显示为提示，即狗的名字上方的\"(I)\"。"
+			]
+			dependencies: ["000000000000062F"]
+			id: "000000000000065A"
+			tasks: [{
+				id: "000000000000065B"
+				type: "checkmark"
+				title: "Dog Modes"
+				icon: "itemfilters:tag"
+			}]
+			rewards: [{
+				id: "000000000000065D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+	]
+}
