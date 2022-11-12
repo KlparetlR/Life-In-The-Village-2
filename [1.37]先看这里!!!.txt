@@ -1,0 +1,42 @@
+﻿2022-11-12 16:24 本次更新：1.37汉化更新，汉化修正
+
+Ⅰ.注意事项（4点）：
+
+⒈汉化为拖入覆盖汉化形式（包括服务器！！！NND），还有，请认真看完这里的所有文字再问我，别告诉我你做不到。
+
+⒉无法下载整合包具体文件（拖入安装的zip），可能是网络问题，试试其他的启动器（CurseForge整合包下载器:https://blog.zhanganzhi.com/zh-CN/2022/06/7b049d0aa9ff/也可以试试），不要死赖PCL。
+
+⒊如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，正常4G就够，装光影内存至少给6G。
+
+4.注意：defaultconfigs文件夹发生了变化，您需要手动覆盖位于saves\WorldName\serverconfig中的世界文件夹。
+
+Ⅱ.这里不提供整合包本体和修改体以及汉化资源包，但这里有您要下载使用的链接放在下方（也可以用pcl或hmcl下载）：
+
+⑴.本体（拉入启动器安装）：
+https://www.curseforge.com/minecraft/modpacks/life-in-the-village-2/download/4014934
+文件名：LITV2-1.16.5-1.37.zip
+
+⑵.i18n（拉入已安装本体的mods文件夹）：
+https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/3538356
+文件名：i18nupdatemod-1.16.5-2.0.3.jar
+resourcepacks文件夹中：Minecraft-Mod-Language-Package-1-16.zip
+
+⑶.安逸菌汉化组的模组简体中文翻译包（拉入已安装本体的resourcepacks文件夹）：
+https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package
+文件名：Minecraft-Mod-Language-Package-Not-Included-Language-Package.zip
+
+☞记得确认是否成功加载翻译包
+
+P.S.一些模组可能i18n和翻译包没有汉化，那就您要自己查翻译。
+
+基础信息：[1.2.0] life in the village 2 汉化 1.37 by KlparetlR
+
+GitHub：https://github.com/KlparetlR/Life-In-The-Village-2
+
+测试：KlparetlR
+
+初步汉化工程时间：2022-07-02-19:50:33 / 2022-07-05-12:43:45
+
+特别鸣谢：安逸菌汉化组 的帮助 
+
+祝您游玩愉快，Thanks！
