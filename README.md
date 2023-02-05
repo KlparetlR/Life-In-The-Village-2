@@ -2,7 +2,6 @@
 # Modpack
 
 [![Name](https://img.shields.io/badge/CurseForge-life%20in%20the%20village%202-F16436)](https://www.curseforge.com/minecraft/modpacks/life-in-the-village-2/)
-[![Website](https://shields.io/website?up_message=anyijun.com&url=http://anyijun.com&label=Website)](http://anyijun.com)
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/KlparetlR/Life-In-The-Village-2/blob/master/LICENSE)
 [![Downloads](https://shields.io/github/downloads/KlparetlR/Life-In-The-Village-2/total?label=Downloads)](https://github.com/KlparetlR/Life-In-The-Village-2/releases)
 [![Release](https://shields.io/github/v/release/KlparetlR/Life-In-The-Village-2?display_name=tag&include_prereleases&label=Release)](https://github.com/KlparetlR/Life-In-The-Village-2/releases/latest)
